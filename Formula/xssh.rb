@@ -6,7 +6,7 @@ class Xssh < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://repos.apixio.com/artifactory/homebrew//xssh/0.1.0/xssh_0.1.0_Darwin_x86_64.tar.gz""
+    url "https://repos.apixio.com/artifactory/homebrew//xssh/0.1.0/xssh_0.1.0_Darwin_x86_64.tar.gz"
     sha256 "c64008a00315787120be7a69d7741bec741ed98df71174a94cd4ad1682177a59"
   elsif OS.linux?
   end
