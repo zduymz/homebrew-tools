@@ -7,7 +7,7 @@ class Xssh < Formula
 
   if OS.mac?
     url "https://github.com/zduymz/xssh/releases/download/v0.1.0/xssh_0.1.0_Darwin_x86_64.tar.gz"
-    sha256 "8ff23e27f639e7144b6ce2bf03b08851c7bcc678771512b6b167a7175736dfe7"
+    sha256 "27a2fdcdc4bd83b3d2f3a46188e81f70167bf4995117984316e71226deee8597"
   elsif OS.linux?
   end
 
