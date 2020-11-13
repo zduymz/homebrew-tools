@@ -7,8 +7,12 @@ class Xssh < Formula
 
   if OS.mac?
     url "https://repos.apixio.com/artifactory/homebrew//xssh/0.1.0/xssh_0.1.0_Darwin_x86_64.tar.gz"
-    sha256 "c64008a00315787120be7a69d7741bec741ed98df71174a94cd4ad1682177a59"
+    sha256 "5113ace0bd82402292bd124c6703d6f2e390fa3dcd94f122483f727997c62a40"
   elsif OS.linux?
+    if Hardware::CPU.intel?
+      url "https://repos.apixio.com/artifactory/homebrew//xssh/0.1.0/xssh_0.1.0_linux_x86_64.tar.gz"
+      sha256 "20485fe1e30283bf9e5f53bd47730962babfb4df652283a893104937432e367f"
+    end
   end
 
   def install
